@@ -1,0 +1,47 @@
+html { 
+	background: url(../images/background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: "Times New Roman",sans-serif;
+}
+
+h1{
+	letter-spacing: 3px;
+}
+
+.prof-box{
+	width: 600px;
+	height: 500px;
+	background: rgba(180,0,80,0.2);
+	padding: 30px;
+	color: white;
+	margin: 0 auto;
+	margin-top: 100px;
+	text-align: center;
+}
+
+.prof-pic{
+	border-radius: 50%;
+	height: 200px;
+	width:200px;
+}
+
+.icons{
+	margin-top: 100px;
+	font-size: 20px;
+	word-spacing: 30px;
+}
+
+.icons i{
+	color: white;
+	letter-spacing: 1px;
+	word-spacing: 5px;
+}
+
+.line-break{
+	width: 500px;
+	border-top: 1px solid white;
+	margin: 0 auto;
+}

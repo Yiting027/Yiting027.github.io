@@ -1,0 +1,77 @@
+html { 
+	background: url(../images/background.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: "Times New Roman",sans-serif;
+}
+
+.line-break{
+	width: 900px;
+	border-top: 1px solid black;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.all-box{
+	width: 900px;
+	height: 1000px;
+	background: rgba(180,0,80,0.2);
+	padding: 30px;
+	color: white;
+	margin: 0 auto;
+	margin-top: 30px;
+	color: black;
+}
+
+h1{
+	margin: 0 auto;
+	margin-top: 30px;
+	text-align: center;
+}
+
+h5{
+	margin: 0 auto;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.section-box{
+	margin-top: 30px;
+}
+
+h3{
+	text-decoration:underline;
+}
+
+p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.icons{
+	margin: 0 auto;
+	background-color:rgba(200,0,80,0.5);	
+	text-align: center;
+	margin-top: 30px;
+	padding: 20px;
+	font-size: 20px;
+	word-spacing: 30px;
+}
+
+.icons i{
+	color: white;
+	letter-spacing: 1px;
+	word-spacing: 5px;
+	margin: center;
+	
+}
+
+#div1{
+	float:left;
+}
+
+#div2{
+	float: center;
+}
