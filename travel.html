@@ -1,0 +1,37 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="CSS/TMaster.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+</head>
+
+<body>
+<script type="text/javascript" src="JavaScript/showMenu.js"></script>
+<div id="div1" class="icons">
+<a href="index.html"><i class="fa fa-home" aria-hidden="true">Home</i></a>
+</div>
+
+<div id="div1">
+<p> <a href="#" onClick = "show_div('menu1')">
+<img name = "ImgMenu" src = "images/step3.png" BORDER="0" align = "absmiddle" width="39" height="50">
+<span class="1"><b>Year</b></span>
+</a>
+<div id="menu1" style="display:none">
+<img src="images/step3.png" width="39" height="50">
+<a href="#" class = "1"><span onclick="show_img('picShow','show'); changeTo14(); NextPic();">Summer 2014</span></a><br>
+<img src="images/step3.png" width="39" height="50">
+<a href="#" class = "1"><span onclick="show_img('picShow','show'); changeTo15(); NextPic();">Summer 2015</span></a><br>
+</div>
+</div>
+
+<div id="picShow" >
+<input name="prevButton" type = "button" style="background:pink;color:red" id="firstButton" value="Prev" onClick="PrevPic()">
+<img src="images/Summer14/DSCN2483.JPG" name="slidePic" width="1000" height="600" style="margin-top:50px"
+id="picShow" onload="show_img('picShow','hide')">
+<input name="nextButton" type = "button" style="background:pink;color:red" id="secondButton" value="Next" onClick="NextPic()">
+</div>
+
+
+
+</body>
+</html>
