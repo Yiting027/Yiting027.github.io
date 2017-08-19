@@ -25,8 +25,27 @@ html {
 	margin-right: 30px;
 }
 
+.icons{
+	margin: 0 auto;
+	background-color:rgba(200,0,80,0.5);	
+	text-align: center;
+	margin-top: 30px;
+	padding: 20px;
+	font-size: 20px;
+	word-spacing: 30px;
+}
+
+.icons i{
+	color: white;
+	letter-spacing: 1px;
+	word-spacing: 5px;
+	margin: center;
+	
+}
+
 #div1{
 	float:left;
+	margin-right: 50px;
 }
 
 #div2{
